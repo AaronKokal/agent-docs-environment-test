@@ -8,7 +8,7 @@ tags: []
 categories: []
 ---
 
-# 📖 Documentation Authoring Workflow
+## 📖 Documentation Authoring Workflow
 
 This repository uses a `docs/` folder for project documentation.
 We edit and maintain it in **Visual Studio Code (WSL)** with a standardized set of extensions and configs.
@@ -68,7 +68,7 @@ These are the extensions we standardize on for Markdown docs:
 
 ## 📂 Repository Structure
 
-```
+```text
 docs/
   img/         # images for documentation
   intro.md     # example entry point
@@ -106,4 +106,5 @@ If either config file is missing, please set it up before contributing to docs.
   ```md
   ![Alt text](./img/screenshot.png)
   ```
+
 * In Docusaurus projects, `/img/...` from `static/img/` is also supported.
