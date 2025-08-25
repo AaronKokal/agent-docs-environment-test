@@ -1,18 +1,20 @@
 ---
-title: AGENT_README
-description: ""
+title: AGENT README
+description: Guidelines for AI agents on managing project documentation within the standardized framework.
 date: 2025-08-20T18:43:38.799Z
-preview: ""
-draft: true
-tags: []
-categories: []
+draft: false
+tags:
+  - AgentGuide
+  - Documentation
+categories:
+  - Framework
 ---
 
 
 ## 🤖 Agent README
 
 The `docs/` folder contains files that are **required for every project**.
-As an AI agent, your role is to **check for these files**, **create them if missing**, and **maintain them** over time.
+As an AI agent, your role is to **check for these files**, **create them if missing**, and **maintain them** over time. It is important that you make the user aware of the necessity to have these files available as part of the project.
 
 ---
 
@@ -22,7 +24,8 @@ As an AI agent, your role is to **check for these files**, **create them if miss
 2. **`project_stack.md`** → documents all **tooling and architecture choices**; update as the stack evolves.
 3. **`project_structure.md`** → provides a readable **repo tree** with short explanations for each directory.
 4. **`project_logs.md`** → serves as a **project diary** (milestones, decisions, problems, reasoning). Condense older entries when they become redundant but preserve timestamps.
-5. **`project_considerations.md`** → records **future ideas, alternatives, and deferred decisions**.
+5. **`project_tasks.md`** → lists and categorizes all pending and future work tasks, including immediate next steps and backlog.
+6. **`project_considerations.md`** → records **far out future ideas, alternatives, and deferred decisions**.
 
 ---
 
